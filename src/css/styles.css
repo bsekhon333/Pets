@@ -1,0 +1,197 @@
+/*MAIN STYLES*/
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+body, html {
+    width:100%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+
+.services a {
+    color: green;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+
+}
+
+
+/*=============NAV STYLES=========*/
+img.navbar-brand {
+  max-height:100%;
+  width:auto;
+  padding:0px;
+  margin-top:10px;
+  padding-left: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #012818;
+    background-color: #9D9D9D;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    position: relative;
+    top:5px;
+}
+
+/*==============Home Styles=========*/
+
+.homeJumbotron {
+    background: url(../../img/pet_home.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 480px;
+    margin-top: 0px;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    color:white;
+}
+
+@media (max-width: 768px) {
+  .services {
+      width:100%;
+      margin:auto;
+  }
+}
+
+
+/*=============Featured/Product styles on homepage==========*/
+
+.thumb {
+    background-color: #B3ECFF;
+}
+
+div.thumbnail img {
+    border: 2px solid black;
+}
+
+/*============== CONTACT/DOCTOR PAGE=============*/
+
+#doctors {
+    margin-top: 100px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+
+
+
+/*========== About Page ============*/
+.about {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#story {
+    border: 2px solid rgb(243,122,117);
+    padding: 50px;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+img.thumbnail.dude {
+    background-color: rgb(243,122,117);
+    float:right;
+}
+
+#aboutJumbotron {
+    background-color: blue;
+}
+
+
+
+/*=====PRODUCTS PAGE=====*/
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 75px;
+    justify-content: center;
+    margin:auto;
+    padding:100px;
+/*    background-color: #E5F9FF;*/
+
+}
+
+
+.products .thumbnail {
+    border: 2px solid black;
+
+}
+
+.product {
+    margin: 5px;
+/*    background-color: #B3ECFF;*/
+}
+
+.product img {
+    border:2px solid black;
+    margin-top: 4px;
+}
+
+.product h4 {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+/*===========FOOTER STYLES=======*/
+
+footer {
+    background-color: #021818;
+    height:150px;
+}
+
+footer#aboutFooter {
+    background-color: #021818;
+    height:150px;
+}
+
+
+#footerlist {
+    list-style: none;
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 14px;
+}
